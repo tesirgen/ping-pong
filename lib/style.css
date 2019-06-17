@@ -1,0 +1,72 @@
+/* Add your styles here */
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #ad7d7d;   
+}
+
+#container{
+    position: relative;
+    height: 600px;
+    width: 600px;
+    margin-left:20%;
+    background-color: #272727;
+    overflow: hidden; 
+} 
+
+#ball{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    background-color: white;
+    border-style: circle;
+    border-radius: 50%;
+    top:30%;
+    left: 50%;
+}
+
+.paddle{
+    position: absolute;
+    height: 20px;
+    width: 150px;
+    background-color: white;
+    left:40%;
+}
+#paddle_1{
+    bottom: 0;
+}
+#paddle_2{
+    top: 0;
+}
+#restart_div{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    display: none;
+}
+
+#restart{
+    border: none;
+    padding: 25px;
+    color: white;
+    background-color: #c72525;
+    font-size: 30px;
+
+
+
+}
+
+
+
+
+
+
+
